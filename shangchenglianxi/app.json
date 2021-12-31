@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goos_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "微信商城",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./icons/首页 (1).png",
+      "selectedIconPath": "./icons/首页.png"
+    },
+    {
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "./icons/jfenlei2.png",
+      "selectedIconPath": "./icons/应用中心.png"
+    },
+    {
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "./icons/购物车.png",
+      "selectedIconPath": "./icons/购物车满.png"
+    },
+    {
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "./icons/观演人.png",
+      "selectedIconPath": "./icons/个人_2.png"
+    }
+  ]},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

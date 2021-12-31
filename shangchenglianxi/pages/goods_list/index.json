@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "usingComponents": {
+    "SeaechInput":"../../components/SeaechInput/SeachInput",
+    "Tabs":"../../components/Tabs/Tabs"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}
